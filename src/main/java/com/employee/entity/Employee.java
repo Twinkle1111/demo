@@ -1,10 +1,12 @@
 package com.employee.entity;
 
+import java.util.Set;
+
 public class Employee {
 	private int id;
 
 	private String name;
-
+	private Set<Department> depts;
 	public int getId() {
 		return id;
 	}
